@@ -1,0 +1,38 @@
+@use '@/sass/variables' as *
+
+.component
+  width: 100%
+  height: 44px
+  border: 1px solid $border
+  background-color: $secondary
+
+  .nav
+    gap: 31px
+    height: 100%
+    padding: 0 20px
+    display: flex
+    align-items: center
+
+    .icons
+      gap: 20px
+      height: 100%
+      display: flex
+      align-items: center
+
+    .menu
+      gap: 28px
+      height: 100%
+      display: flex
+      align-items: center
+
+      &Item
+        height: 100%
+
+        &Button
+          height: 100%
+          font-size: 14px
+          color: $muted
+
+          &.active
+            color: $foreground
+            border-bottom: 1px solid $foreground

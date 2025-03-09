@@ -1,0 +1,36 @@
+@use '@/sass/variables' as *
+
+.component
+  width: 100%
+  max-width: fit-content
+  height: auto
+  display: flex
+  flex-direction: column
+  align-items: start
+
+  color: rgba($muted, .5)
+
+  .caption
+    margin-bottom: 5px
+
+    font-size: 15px
+    font-weight: 700
+
+  .hintList
+    display: flex
+    flex-direction: column
+
+    &Item
+      margin-top: 8px
+
+      .hintHotkey
+        color: rgba($muted, .75)
+        font-size: 13px
+        font-weight: 700
+        
+        padding: 1.5px 3.5px
+        background-color: $border
+        border-radius: 6px
+      
+      .hintDescription
+        font-size: 15px

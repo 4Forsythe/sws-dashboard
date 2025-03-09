@@ -1,0 +1,33 @@
+@use '@/sass/variables' as *
+
+.page
+  display: flex
+  flex-direction: column
+
+  position: relative
+
+  .header
+    height: 44px
+    display: flex
+    align-items: center
+    background-color: $secondary
+    border-bottom: 1px solid $border
+
+    .tab
+      height: 100%
+      padding: 0 15px
+      display: flex
+      align-items: center
+      border-right: 1px solid $border
+
+      &Title
+        height: 100%
+        display: flex
+        align-items: center
+
+        font-size: 18px
+        line-height: 21px
+        
+  .section
+    flex: 1
+    background-color: $background

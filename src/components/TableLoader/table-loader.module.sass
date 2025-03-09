@@ -1,0 +1,21 @@
+@use '@/sass/variables' as *
+
+.component
+  inset: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  position: absolute
+
+  .overlay
+    inset: 0
+    z-index: 50
+    position: absolute
+
+    background-color: rgba($border, .5)
+
+  .text
+    z-index: 100
+
+    font-size: 18px
+    font-weight: 500
